@@ -1,0 +1,26 @@
+{
+    "name": "ericversteeg/laminas-mvc",
+    "autoload": {
+        "psr-4": {
+            "Application\\": "module/Application/src",
+            "Album\\": "module/Album/src/",
+            "Login\\": "module/Login/src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ericversteeg",
+            "email": "ewversteeg@gmail.com"
+        }
+    ],
+    "require": {
+        "laminas/laminas-mvc": "^3.3",
+        "laminas/laminas-db": "^2.13",
+        "laminas/laminas-form": "^3.1",
+        "laminas/laminas-validator": "^2.16",
+        "laminas/laminas-i18n": "^2.14"
+    },
+    "require-dev": {
+        "laminas/laminas-component-installer": "^2.6"
+    }
+}
